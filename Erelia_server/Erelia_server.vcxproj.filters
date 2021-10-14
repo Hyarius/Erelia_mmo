@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Widget">
+      <UniqueIdentifier>{97397030-3015-46e3-a11b-dc5fb3b9bd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget\Updater">
+      <UniqueIdentifier>{48b71fb5-c898-4fe9-821e-1ec812e5cf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget">
+      <UniqueIdentifier>{4ada8666-8cd0-43eb-a0f6-0afb5aca7fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget\Updater">
+      <UniqueIdentifier>{badd7b06-dbb1-404a-860a-5839813e447b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{c2eff90e-cfc0-46ff-807e-86099dded985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{12ebca20-f76c-4251-9724-5d529583faa4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\erelia_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Updater\erelia_map_updater.h">
+      <Filter>Header Files\Widget\Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Updater\erelia_entity_updater.h">
+      <Filter>Header Files\Widget\Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Updater\erelia_player_updater.h">
+      <Filter>Header Files\Widget\Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\erelia_server_application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_chunk.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_engine.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_map.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="srcs\main_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Updater\erelia_entity_updater.cpp">
+      <Filter>Source Files\Widget\Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Updater\erelia_map_updater.cpp">
+      <Filter>Source Files\Widget\Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Updater\erelia_player_updater.cpp">
+      <Filter>Source Files\Widget\Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\erelia_server_application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_server_chunk.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_server_map.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_server_engine.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
