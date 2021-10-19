@@ -37,6 +37,12 @@
     <Filter Include="Source Files\Data">
       <UniqueIdentifier>{005e539d-57d8-4bce-b437-9b9c5ff5bc7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Widget\Client">
+      <UniqueIdentifier>{9bf0157e-0299-4634-9998-150e1c4a9e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget\Client">
+      <UniqueIdentifier>{60a02958-285b-4af0-9a5d-fd022ccf4d28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes\erelia_client.h">
@@ -78,6 +84,9 @@
     <ClInclude Include="includes\erelia_client_application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="includes\widget\client\erelia_client_updater.h">
+      <Filter>Header Files\Widget\Client</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="srcs\main_client.cpp">
@@ -118,6 +127,12 @@
     </ClCompile>
     <ClCompile Include="srcs\Data\erelia_client_engine.cpp">
       <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\widget\client\erelia_client_updater.cpp">
+      <Filter>Source Files\Widget\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\erelia_chunk_shader.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

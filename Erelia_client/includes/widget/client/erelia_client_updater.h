@@ -3,9 +3,10 @@
 #include "jgl.h"
 #include "erelia_commun.h"
 
-class Entity_renderer : public jgl::Widget
+class Client_updater : public jgl::Widget
 {
 private:
+	Client* _client;
 
 	void _on_geometry_change();
 	void _render();
@@ -14,5 +15,5 @@ private:
 	bool _fixed_update();
 
 public:
-	Entity_renderer(jgl::Widget* p_parent = nullptr);
+	Client_updater(Client* p_client, jgl::Widget* p_parent = nullptr);
 };

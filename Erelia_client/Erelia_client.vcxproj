@@ -172,6 +172,7 @@
     <ClInclude Include="includes\data\erelia_map.h" />
     <ClInclude Include="includes\erelia_client.h" />
     <ClInclude Include="includes\erelia_client_application.h" />
+    <ClInclude Include="includes\widget\client\erelia_client_updater.h" />
     <ClInclude Include="includes\widget\controller\erelia_console_controller.h" />
     <ClInclude Include="includes\widget\controller\erelia_interact_controller.h" />
     <ClInclude Include="includes\widget\controller\erelia_player_controller.h" />
@@ -185,8 +186,10 @@
     <ClCompile Include="srcs\Data\erelia_client_chunk.cpp" />
     <ClCompile Include="srcs\Data\erelia_client_engine.cpp" />
     <ClCompile Include="srcs\Data\erelia_client_map.cpp" />
+    <ClCompile Include="srcs\erelia_chunk_shader.cpp" />
     <ClCompile Include="srcs\erelia_client_application.cpp" />
     <ClCompile Include="srcs\main_client.cpp" />
+    <ClCompile Include="srcs\widget\client\erelia_client_updater.cpp" />
     <ClCompile Include="srcs\widget\controller\erelia_console_controller.cpp" />
     <ClCompile Include="srcs\widget\controller\erelia_interact_controller.cpp" />
     <ClCompile Include="srcs\widget\controller\erelia_player_controller.cpp" />

@@ -11,6 +11,9 @@
 class Server_application : public jgl::Widget
 {
 private:
+
+	Server* _server;
+
 	//Controller elements
 	jgl::Contener* _updater;
 	Player_updater* _player_updater;
@@ -22,6 +25,8 @@ private:
 
 	void _on_geometry_change();
 	void _render();
+
+	void _chunk_request(Message& msg);
 
 public:
 	Server_application(jgl::Widget* p_parent = nullptr);

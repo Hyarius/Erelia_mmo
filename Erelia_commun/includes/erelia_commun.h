@@ -8,8 +8,13 @@
 enum class Server_message
 {
 	Chunk_request = 0,
-	Chunk_response = 1
+	Chunk_content = 1
 };
+
+using Connection = jgl::Connection<Server_message>;
+using Message = jgl::Message<Server_message>;
+using Client = jgl::Client<Server_message>;
+using Server = jgl::Server<Server_message>;
 
 namespace Constant
 {
@@ -27,7 +32,13 @@ namespace Constant
 	struct Chunk
 	{
 		static const jgl::Size_t size = 16u;
+
 		static const jgl::Size_t nb_layer = 5u;
+	};
+
+	struct Node
+	{
+		static const jgl::Size_t size = 32u;
 	};
 };
 
@@ -35,6 +46,7 @@ namespace World_object
 {
 	struct Node
 	{
+		static jgl::Sprite_sheet* texture;
 		jgl::String name;
 		jgl::Size_t animation_size;
 		jgl::Vector2Int sprite;
@@ -79,14 +91,18 @@ namespace World_object
 
 	struct Scenery_part
 	{
+		static jgl::Sprite_sheet* texture;
 		jgl::Vector2Int sprite;
+		jgl::Bool autotiled;
 		jgl::Size_t animation_size;
 		jgl::Bool obstacle;
 
-		Scenery_part(jgl::Vector2Int p_sprite = 0, jgl::Bool p_obstacle = true, jgl::Size_t p_animation_size = 0)
+		Scenery_part(jgl::Vector2Int p_sprite = 0, jgl::Bool p_autotiled = false, jgl::Bool p_obstacle = true, jgl::Size_t p_animation_size = 0)
 		{
+			autotiled = p_autotiled;
 			sprite = p_sprite;
 			obstacle = p_obstacle;
+			animation_size = p_animation_size;
 		}
 		friend std::ostream& operator<<(std::ostream& os, const Scenery_part& other)
 		{

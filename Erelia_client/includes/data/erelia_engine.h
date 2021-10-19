@@ -7,8 +7,12 @@
 class Engine
 {
 private:
-	Map _map;
+	Map* _map;
 
 public:
 	Engine();
+
+	void received_chunk_data(Message& msg);
+
+	Map* map() { return (_map); }
 };

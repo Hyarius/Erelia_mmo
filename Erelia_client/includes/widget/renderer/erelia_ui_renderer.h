@@ -1,6 +1,7 @@
 #pragma once
 
 #include "jgl.h"
+#include "erelia_commun.h"
 
 class UI_renderer : public jgl::Widget
 {

@@ -5,6 +5,8 @@
 
 #include "data/erelia_engine.h"
 
+#include "widget/client/erelia_client_updater.h"
+
 #include "widget/controller/erelia_console_controller.h"
 #include "widget/controller/erelia_interact_controller.h"
 #include "widget/controller/erelia_player_controller.h"
@@ -18,9 +20,14 @@
 class Client_application : public jgl::Widget
 {
 private:
+
+	Client* _client;
+
+	Client_updater* _client_updater;
+
 	//Renderer elements
 	jgl::Contener* _renderer;
-	Map_renderer* _world_renderer;
+	Map_renderer* _map_renderer;
 	Entity_renderer* _entity_renderer;
 	UI_renderer* _ui_renderer;
 	Particule_renderer* _particule_renderer;
@@ -38,6 +45,10 @@ private:
 	void _on_geometry_change();
 	void _render();
 
+	bool _update();
+	bool _fixed_update();
+
 public:
 	Client_application(jgl::Widget* p_parent = nullptr);
+	void connection_complete();
 };

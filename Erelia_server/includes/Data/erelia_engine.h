@@ -11,4 +11,6 @@ private:
 
 public:
 	Engine();
+
+	Chunk* request_chunk(jgl::Vector2Int p_pos);
 };

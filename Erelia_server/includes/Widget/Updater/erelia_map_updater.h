@@ -1,6 +1,7 @@
 #pragma once
 
 #include "jgl.h"
+#include "erelia_commun.h"
 
 class Map_updater : public jgl::Widget
 {
