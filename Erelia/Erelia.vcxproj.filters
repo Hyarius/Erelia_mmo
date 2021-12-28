@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{18daca55-2c73-4732-9083-894353d9a11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget">
+      <UniqueIdentifier>{4d5ddeca-98ea-41e1-b59e-8b1f54b17bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget\Singleplayer">
+      <UniqueIdentifier>{49ccfca1-0128-4dfd-8416-48ded5610e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget\Multiplayer">
+      <UniqueIdentifier>{65e41a0e-f47c-4af5-920e-057cf19553f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{31076801-71a0-4c48-a0b0-4aa70520e227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget">
+      <UniqueIdentifier>{c2eeb92f-f1a5-4894-a8fd-7a7802d54772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget\Multiplayer">
+      <UniqueIdentifier>{6799177a-f053-44db-b704-aab298fc89c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget\Singleplayer">
+      <UniqueIdentifier>{01402c76-9505-4cbd-b232-f74e558f094c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget\Controller">
+      <UniqueIdentifier>{37ddd621-2923-4fed-bd9a-88e4976235bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget\Controller">
+      <UniqueIdentifier>{ee1662f9-f0e6-418f-b6f7-52c0fd4551d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Widget\Generic">
+      <UniqueIdentifier>{7449ee8a-29f4-4dcf-9f6c-9bf3118a34f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget\Generic">
+      <UniqueIdentifier>{113c3468-4875-4d87-ad34-d342c62f6cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Chunk">
+      <UniqueIdentifier>{81574e6f-5f89-42f4-b341-78935e8d9a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gamemode">
+      <UniqueIdentifier>{c089a2b6-e113-49cc-b91a-5523c28c45e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gamemode\Singleplayer">
+      <UniqueIdentifier>{ba2532c0-edbc-424d-ab15-5b83aea4bcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gamemode\Multiplayer">
+      <UniqueIdentifier>{702d1599-ef39-4b3b-b99c-4bc24c51ba16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gamemode">
+      <UniqueIdentifier>{b3d345a8-5f5f-46c7-9f25-1e426dc97e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gamemode\Singleplayer">
+      <UniqueIdentifier>{90003e40-23fd-439b-a023-23d8637f1cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gamemode\Multiplayer">
+      <UniqueIdentifier>{86546ba2-f33e-4d43-a82a-7ed97cde5da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gamemode\Singleplayer\Widget">
+      <UniqueIdentifier>{d99e15c1-c78a-46d8-afd4-9a418c0a866c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gamemode\Multiplayer\Widget">
+      <UniqueIdentifier>{d31f11da-0502-46e6-af80-7f8c3073313d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gamemode\Singleplayer\Widget">
+      <UniqueIdentifier>{f7d95ad5-15f8-4e89-9543-24d965d9d4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gamemode\Multiplayer\Widget">
+      <UniqueIdentifier>{63f5ecd3-c947-46e0-8b4a-097f301065c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{d484980b-5e0a-4b32-aabd-550a2db6e811}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="srcs\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_chunk.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_engine.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_entity.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_map.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_player.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_world_object.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Controller\erelia_map_controller.cpp">
+      <Filter>Source Files\Widget\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Controller\erelia_player_controller.cpp">
+      <Filter>Source Files\Widget\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Controller\erelia_entity_controller.cpp">
+      <Filter>Source Files\Widget\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\main_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Generic\erelia_entity_renderer.cpp">
+      <Filter>Source Files\Widget\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Generic\erelia_map_renderer.cpp">
+      <Filter>Source Files\Widget\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Generic\erelia_graphical_widget.cpp">
+      <Filter>Source Files\Widget\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Multiplayer\erelia_entity_updater_multiplayer.cpp">
+      <Filter>Source Files\Widget\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Multiplayer\erelia_map_updater_multiplayer.cpp">
+      <Filter>Source Files\Widget\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Multiplayer\erelia_player_updater_multiplayer.cpp">
+      <Filter>Source Files\Widget\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Singleplayer\erelia_entity_updater_singleplayer.cpp">
+      <Filter>Source Files\Widget\Singleplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Singleplayer\erelia_map_updater_singleplayer.cpp">
+      <Filter>Source Files\Widget\Singleplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Singleplayer\erelia_player_updater_singleplayer.cpp">
+      <Filter>Source Files\Widget\Singleplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_chunk_autotile_data.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_world_object_array.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Generic\erelia_generic_map_updater.cpp">
+      <Filter>Source Files\Widget\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Widget\Generic\erelia_generic_player_updater.cpp">
+      <Filter>Source Files\Widget\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Gamemode\Singleplayer\erelia_adventure_gamemode.cpp">
+      <Filter>Source Files\Gamemode\Singleplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Gamemode\Singleplayer\erelia_editor_gamemode.cpp">
+      <Filter>Source Files\Gamemode\Singleplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Gamemode\Singleplayer\Widget\erelia_singleplayer_player_command.cpp">
+      <Filter>Source Files\Gamemode\Singleplayer\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_item.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Gamemode\Singleplayer\Widget\erelia_singleplayer_editor_inventory.cpp">
+      <Filter>Source Files\Gamemode\Singleplayer\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Gamemode\Singleplayer\Widget\erelia_singleplayer_editor_inventory_page.cpp">
+      <Filter>Source Files\Gamemode\Singleplayer\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Data\erelia_editor_page_content_array.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Utils\generate_all_editor_page_content.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\Utils\generate_world_object_array.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\erelia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_world_object.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_chunk.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_map.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_engine.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\erelia_widgets.h">
+      <Filter>Header Files\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\erelia_connection_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_entity.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_player.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Controller\erelia_map_controller.h">
+      <Filter>Header Files\Widget\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Controller\erelia_player_controller.h">
+      <Filter>Header Files\Widget\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Controller\erelia_entity_controller.h">
+      <Filter>Header Files\Widget\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\main_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Generic\erelia_entity_renderer.h">
+      <Filter>Header Files\Widget\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Generic\erelia_graphical_widget.h">
+      <Filter>Header Files\Widget\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Generic\erelia_map_renderer.h">
+      <Filter>Header Files\Widget\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Multiplayer\erelia_entity_updater_multiplayer.h">
+      <Filter>Header Files\Widget\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Multiplayer\erelia_map_updater_multiplayer.h">
+      <Filter>Header Files\Widget\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Multiplayer\erelia_player_updater_multiplayer.h">
+      <Filter>Header Files\Widget\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Singleplayer\erelia_entity_updater_singleplayer.h">
+      <Filter>Header Files\Widget\Singleplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Singleplayer\erelia_map_updater_singleplayer.h">
+      <Filter>Header Files\Widget\Singleplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Singleplayer\erelia_player_updater_singleplayer.h">
+      <Filter>Header Files\Widget\Singleplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Generic\erelia_generic_map_updater.h">
+      <Filter>Header Files\Widget\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Widget\Generic\erelia_generic_player_updater.h">
+      <Filter>Header Files\Widget\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Gamemode\Singleplayer\erelia_adventure_gamemode.h">
+      <Filter>Header Files\Gamemode\Singleplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Gamemode\Singleplayer\erelia_editor_gamemode.h">
+      <Filter>Header Files\Gamemode\Singleplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Data\erelia_item.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Gamemode\Singleplayer\Widget\erelia_singleplayer_player_command.h">
+      <Filter>Header Files\Gamemode\Singleplayer\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Gamemode\Singleplayer\Widget\erelia_singleplayer_editor_inventory.h">
+      <Filter>Header Files\Gamemode\Singleplayer\Widget</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ressource\shader\chunk_shader.frag">
+      <Filter>Resource Files\Chunk</Filter>
+    </None>
+    <None Include="ressource\shader\chunk_shader.vert">
+      <Filter>Resource Files\Chunk</Filter>
+    </None>
+  </ItemGroup>
+</Project>
